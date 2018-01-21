@@ -15,7 +15,7 @@ $(document).click("#conDis", function(){
 
 function connect(){
 	console.log("connect");
-	bluetoothSerial.connect("B8:27:EB:D2:4A:3F", conSuccess, conFailure);
+	bluetoothSerial.connect(B8:27:EB:D2:4A:3F, conSuccess, conFailure);
 }
 
 function disconnect(){

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "doorlock.prototype"
+        versionCode = "10"
+        version     = "0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Lock Alert</name>
+
+    <description>
+        Protoype for bt notification
+    </description>
+
+    <author email="symonhambrey@gmail.com">
+        Symon Hambrey
+    </author>
+
+
+
+	<!-- required plugins go here -->
+	     <plugin name="cordova-plugin-dialogs"/>
+       <plugin name="cordova-plugin-local-notification" version="0.8" />
+       <plugin name="cordova-plugin-whitelist"/>
+       <plugin name="cordova-plugin-bluetooth-serial"/>
+</widget>

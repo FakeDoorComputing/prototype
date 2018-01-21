@@ -7,6 +7,8 @@ $(document).on('pageinit', function() {
 });
 
 $(document).click("#conDis", function(){
+	$("#conDis").css("color","red");
+	$("#status").text("Connecting...");
 	connect();
 })
 
